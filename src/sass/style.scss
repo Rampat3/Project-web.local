@@ -1,3 +1,16 @@
-body{
-  background: black;
+@import "blocks/headers.scss";
+
+.content{
+  width: 1200px;
+  margin: 0 auto;
+}
+
+a{
+  text-decoration: none;
+}
+
+ul{
+  li{
+    list-style-type: none;
+  }
 }
