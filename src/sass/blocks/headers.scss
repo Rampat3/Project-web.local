@@ -1,9 +1,11 @@
 .block{
-  
   &-right{
-   text-align: center;
+    display: flex;
+    justify-content: flex-end;
+    & li{
+      margin: 0 5px;
+    }
     &_entrance{
-
   }
   }
 }
